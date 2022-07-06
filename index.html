@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quran API</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <input type="number" min="1" max="114" placeholder="Surha Number" class="num">
+            <input type="number" min="1" max="286" placeholder="Verse Number" class="verse">
+            <input type="button" value="Fetch" class="btn">
+        </div>
+        <div class="audio">
+            <audio controls src="">
+                Your browser does not support the
+                <code>audio</code> element.
+            </audio>
+        </div>
+        <div class="main">
+            <div class="ayah"></div>
+            <div class="ayah-info"></div>
+            <div class="surah-info"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
